@@ -1,0 +1,12 @@
+POST /residents/ HTTP/1.1
+Host: localhost:8080
+Content-Type: application/json
+
+{
+  "name": "test",
+  "residentRegistrationNumber": "990423-1111111",
+  "genderCode": "남",
+  "birthDate": "1999-04-23T00:00:00",
+  "birthPlaceCode": "병원",
+  "registrationBaseAddress": "ulsan"
+}
